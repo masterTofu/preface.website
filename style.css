@@ -1,0 +1,113 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	text-align: left;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+h1{
+	font-size: 300%;
+	color: white;
+	font-weight: bold;
+
+}
+
+#icon{
+	transform: translate(80%,70%)
+}
+
+#logo {
+	width: 30%;
+	transform: translate(0, -30%);
+}
+
+#signInIcon {
+	width: 5%;
+
+}
+
+#menuIcon {
+	width: 5%;
+}
+
+
+#topBanner {
+	display: flex;
+}
+
+#banner {
+	width: 100%;
+	position: relative;
+}
+
+#logo, #topBanner > div, h1, #topBanner > h2 {
+	position: absolute;
+}
+
+
+h1 {
+	transform: translate(35%, 1600%);
+}
+
+h2 {
+	font-size: 200%;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.place {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.cover {
+	height: 400px;
+	width: 600px;
+	/*object-fit: cover;*/
+	border-radius: 20px;
+}
+
+p {
+	font-size: 150%;
+	color: black;
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.explore {
+	height: 300px;
+	width: 500px;
+	border-radius: 20px;
+	transform: translate(45%,0%);
+}
+
+#page {
+	font-size: 200%;
+	color: black;
+	text-align: center;
+}
+
+.social {
+	height: 3%;
+	width: 3%;
+	padding: 5px;
+}
+
+#pixar{
+	text-align: center;
+}
+
+.other{
+	display: flex;
+}
+
+#monsters{
+	transform: translate(60%,170%);
+}
+
+#rata{
+	transform: translate(82.5%,170%);
+}
